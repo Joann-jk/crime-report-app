@@ -28,7 +28,7 @@ export default function Navbar() {
                     />
                   </svg>
                 </div>
-                <span className="text-lg font-semibold text-white">
+                <span className="hidden sm:block text-lg font-semibold text-white">
                   SafeReport
                 </span>
               </Link>
