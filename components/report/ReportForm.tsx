@@ -36,6 +36,27 @@ export default function ReportForm({ onComplete }: ReportFormProps) {
     longitude: null,
   });
 
+  const handleImageUpload = async (e:React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if(!file) return;
+
+    setIsAnalyzing(true)
+
+    try {
+      const base64 = new Promise((resolve)=>{
+        const reader = new FileReader()
+        reader.onloadend = () => resolve(reader.result)
+        reader.readAsDataURL(file)
+      })
+
+    } catch (error) {
+        console.log("Error in analyzing image")
+    } finally {
+      setIsAnalyzing(false)
+    }
+  }
+
+  
   return (
     <form className="space-y-8">
       {/* Emergency Type Selection */}
