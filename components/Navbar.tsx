@@ -48,11 +48,11 @@ export default function Navbar() {
                 Track Report
               </Link>
               <Link
-                href="/how-it-works"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
-              >
-                How It Works
-              </Link>
+  href="/how-it-works"
+  className="text-sm text-zinc-400 hover:text-white transition-colors"
+>
+  How It Works
+</Link>
               <Link
                 href="/resources"
                 className="text-sm text-zinc-400 hover:text-white transition-colors"
