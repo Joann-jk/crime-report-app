@@ -70,11 +70,11 @@ export default function MobileMenu({onClose, isOpen}:MobileMenuProps) {
               Resources
             </Link>
             <Link
-              href="/contact"
+              href="/login"
               className="text-sm text-zinc-400 hover:text-white transition-colors"
               onClick={onClose}
             >
-              Contact
+              contacts
             </Link>
           </nav>
         </div>
