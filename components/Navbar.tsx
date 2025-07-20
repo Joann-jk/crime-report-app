@@ -41,6 +41,7 @@ export default function Navbar() {
               >
                 Submit Report
               </Link>
+              
               <Link
                 href="/track-report"
                 className="text-sm text-zinc-400 hover:text-white transition-colors"
