@@ -90,7 +90,7 @@ export default function Home() {
             Secure & Anonymous Reporting
           </div>
 
-          <h1 className="mt-8 bg-gradient-to-b from-white to-white/80 bg-clip-text text-6xl font-bold tracking-tight text-transparent sm:text-7xl">
+          <h1 className="mt-8 bg-gradient-to-b from-white to-white/80 bg-clip-text text-6xl font-bold tracking-tight text-transparent sm:text-8xl">
             Report Incident.
             <span className="block bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent">
               Protect Identity.

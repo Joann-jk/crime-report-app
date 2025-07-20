@@ -49,11 +49,11 @@ export default function Navbar() {
                 Track Report
               </Link>
               <Link
-                href="/how-it-works"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
-              >
-                How It Works
-              </Link>
+  href="/how-it-works"
+  className="text-sm text-zinc-400 hover:text-white transition-colors"
+>
+  How It Works
+</Link>
               <Link
                 href="/resources"
                 className="text-sm text-zinc-400 hover:text-white transition-colors"
@@ -64,15 +64,17 @@ export default function Navbar() {
             {/* Emergency Button */}
             <div className="flex items-center space-x-4">
               <Link
-                href="/contact"
+                href="/login"
                 className="hidden md:block text-sm text-zinc-400 hover:text-white transition-colors"
               >
-                Contact
+                LOGIN
               </Link>
-              <button className="group flex h-9 items-center gap-2 rounded-full bg-red-500/10 pl-4 pr-5 text-sm font-medium text-red-500 ring-1 ring-inset ring-red-500/20 transition-all hover:bg-red-500/20">
-                <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse" />
-                Emergency: 911
-              </button>
+              <Link
+                href="/signup"
+                className="hidden md:block text-sm text-zinc-400 hover:text-white transition-colors"
+              >
+                SIGN UP
+              </Link>
 
               {/* Mobile Menu Button */}
               <button
